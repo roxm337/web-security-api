@@ -45,7 +45,7 @@ Make sure that the vuln_scan.py script is placed in the scripts/ folder and is e
 
 If necessary, provide execution permissions to the script:
 ```bash
-chmod +x scripts/vuln_scan.py
+chmod +x public/scripts/vuln_scan.py
 ```
 
 ### Test the API
