@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use App\Services\HeaderScannerService; // Add this import
-use App\Services\SSLScannerService;   // Add this import
+use App\Services\HeaderScannerService; 
+use App\Services\SSLScannerService;   
 
 class ScanController extends Controller
 {
