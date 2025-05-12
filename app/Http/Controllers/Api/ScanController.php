@@ -26,6 +26,7 @@ class ScanController extends Controller
             $ssl = SSLScannerService::analyzeSSL($url);
 
             // Call Python script for full scan
+            // check python requirements and packages
             $vulnScan = shell_exec("python3 scripts/vuln_scan.py " . escapeshellarg($url));
             $vulns = json_decode($vulnScan, true);
 
